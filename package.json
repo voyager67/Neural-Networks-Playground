@@ -1,0 +1,12 @@
+{
+  "name": "neural-playground",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An interactive, inspectable neural network learning lab.",
+  "scripts": {
+    "test": "node --test src/ml-engine.test.js",
+    "check": "node --check app.js && node --check src/ml-engine.js"
+  },
+  "engines": { "node": ">=20" }
+}

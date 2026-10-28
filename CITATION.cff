@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If Neural Playground helps your teaching, study, or research, please cite the repository and record the version you used."
+title: "Neural Playground: An Interactive Neural Network Learning Lab"
+type: software
+version: 1.0.0
+date-released: 2026-10-28
+license: MIT
+repository-code: "https://github.com/voyager67/neural-playground"
+authors:
+  - name: "Neural Playground contributors"

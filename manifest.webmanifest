@@ -1,0 +1,13 @@
+{
+  "name": "Neural Playground — Interactive ML Lab",
+  "short_name": "Neural Playground",
+  "description": "An inspectable, browser-based lab for neural networks, backpropagation, optimisation and synthetic classification.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a0e18",
+  "theme_color": "#0b1020",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
