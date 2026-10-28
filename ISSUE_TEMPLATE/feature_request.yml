@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest a learning, experiment, accessibility, or developer-experience improvement.
+title: "feature: "
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+      description: Explain the learner or contributor need before proposing the feature.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Proposed solution
+      description: Describe the interaction, expected behavior, or API.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Project area
+      options:
+        - Browser learning lab
+        - Neural-network engine
+        - Python / NumPy experiment track
+        - Documentation and tutorials
+        - Accessibility and responsive UI
+        - Testing and developer experience
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or trade-offs
+      description: Mention other approaches or constraints worth considering.

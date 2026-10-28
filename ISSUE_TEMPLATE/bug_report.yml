@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a reproducible problem in the app, visualisation, or reference engine.
+title: "bug: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for helping improve Neural Playground. Please do not include personal or sensitive information."
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+      placeholder: Steps and observed result
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Add the smallest set of steps that consistently reproduces the issue.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Chrome 142 / Firefox 141 / Safari 18
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS and environment
+      placeholder: Windows 11, local server / GitHub Pages
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console or test output
+      description: Paste relevant errors or test output, redacting secrets.
