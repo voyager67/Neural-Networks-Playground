@@ -1,0 +1,19 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated experiment outputs
+outputs/
+_site/
+
+# Test and coverage artifacts
+.coverage
+htmlcov/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.log
